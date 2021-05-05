@@ -28,6 +28,7 @@ const Sidebar = () => {
             <SidebarOption Icon={MoreHorizIcon} text="More" />
 
             {/* BUtton  _> Tweet*/}
+            <Button variant="outlined" className="sidebar__tweet" fullWidth>Tweet</Button>
         </div>
     );
 };

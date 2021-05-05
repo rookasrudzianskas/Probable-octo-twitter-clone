@@ -3,8 +3,10 @@ import "./styles/Feed.css";
 
 const Feed = () => {
     return (
-        <div className="feed">
-            <h2>This is a home</h2>
+        <div>
+            <div  className="feed">
+                <h2>This is a home</h2>
+            </div>
         {/*    header   */}
 
         {/*    tweet box*/}

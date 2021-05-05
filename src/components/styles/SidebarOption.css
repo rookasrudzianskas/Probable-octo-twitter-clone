@@ -20,3 +20,7 @@
     color: var(--tiwitter-color);
     transition: color 100ms ease-out;
 }
+
+.sidebarOption--active {
+    color: var(--tiwitter-color);
+}

@@ -3,8 +3,8 @@ import "./styles/Feed.css";
 
 const Feed = () => {
     return (
-        <div>
-            <div  className="feed">
+        <div className="feed">
+            <div  className="feed__header">
                 <h2>This is a home</h2>
             </div>
         {/*    header   */}

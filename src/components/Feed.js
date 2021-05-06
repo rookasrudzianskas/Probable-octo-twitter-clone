@@ -6,7 +6,7 @@ import db from "../firebase";
 
 const Feed = () => {
     const [posts, setPosts] = useState([]);
-    console.log(posts);
+    // console.log(posts);
 
     useEffect(() => {
         // is going to run once the feed component loads

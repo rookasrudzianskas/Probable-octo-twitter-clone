@@ -44,3 +44,10 @@ display: flex;
 .post__avatar {
     padding: 20px;
 }
+
+.img{
+    height: 400px;
+    width: 400px;
+    object-fit: contain;
+    border-radius: 30px;
+}

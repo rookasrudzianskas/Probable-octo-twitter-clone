@@ -1,9 +1,11 @@
-import React from 'react';
+import React, {useState} from 'react';
 import "./styles/Feed.css";
 import TweetBox from "./TweetBox";
 import Post from "./Post";
 
 const Feed = () => {
+    const [posts, setPosts] = useState([])
+
     return (
         <div className="feed">
             <div  className="feed__header">
@@ -14,15 +16,19 @@ const Feed = () => {
         {/*    tweet box*/}
             <TweetBox />
 
-            <Post />
-            <Post />
-            <Post />
-            <Post />
-            <Post />
-            <Post />
-            <Post />
-            <Post />
-            <Post />
+            <Post displayName="Rokas Rudzianskas" username="byrookas" verified text="lorem10lorem10lorem10lorem10lorem10lorem10lorem10lorem10lorem10" avatar="https://pbs.twimg.com/profile_images/1350895249678348292/RS1Aa0iK.jpg" image="https://pbs.twimg.com/profile_images/1350895249678348292/RS1Aa0iK.jpg"/>
+            <Post displayName="Rokas Rudzianskas" username="byrookas" verified text="lorem10lorem10lorem10lorem10lorem10lorem10lorem10lorem10lorem10" avatar="https://pbs.twimg.com/profile_images/1350895249678348292/RS1Aa0iK.jpg" image="https://pbs.twimg.com/profile_images/1350895249678348292/RS1Aa0iK.jpg"/>
+            <Post displayName="Rokas Rudzianskas" username="byrookas" verified text="lorem10lorem10lorem10lorem10lorem10lorem10lorem10lorem10lorem10" avatar="https://pbs.twimg.com/profile_images/1350895249678348292/RS1Aa0iK.jpg" image="https://pbs.twimg.com/profile_images/1350895249678348292/RS1Aa0iK.jpg"/>
+            <Post displayName="Rokas Rudzianskas" username="byrookas" verified text="lorem10lorem10lorem10lorem10lorem10lorem10lorem10lorem10lorem10" avatar="https://pbs.twimg.com/profile_images/1350895249678348292/RS1Aa0iK.jpg" image="https://pbs.twimg.com/profile_images/1350895249678348292/RS1Aa0iK.jpg"/>
+            <Post displayName="Rokas Rudzianskas" username="byrookas" verified text="lorem10lorem10lorem10lorem10lorem10lorem10lorem10lorem10lorem10" avatar="https://pbs.twimg.com/profile_images/1350895249678348292/RS1Aa0iK.jpg" image="https://pbs.twimg.com/profile_images/1350895249678348292/RS1Aa0iK.jpg"/>
+            <Post displayName="Rokas Rudzianskas" username="byrookas"  text="lorem10lorem10lorem10lorem10lorem10lorem10lorem10lorem10lorem10" avatar="https://pbs.twimg.com/profile_images/1350895249678348292/RS1Aa0iK.jpg" image="https://pbs.twimg.com/profile_images/1350895249678348292/RS1Aa0iK.jpg"/>
+            <Post displayName="Rokas Rudzianskas" username="byrookas" verified text="lorem10lorem10lorem10lorem10lorem10lorem10lorem10lorem10lorem10" avatar="https://pbs.twimg.com/profile_images/1350895249678348292/RS1Aa0iK.jpg" image="https://pbs.twimg.com/profile_images/1350895249678348292/RS1Aa0iK.jpg"/>
+            <Post displayName="Rokas Rudzianskas" username="byrookas" verified text="lorem10lorem10lorem10lorem10lorem10lorem10lorem10lorem10lorem10" avatar="https://pbs.twimg.com/profile_images/1350895249678348292/RS1Aa0iK.jpg" image="https://pbs.twimg.com/profile_images/1350895249678348292/RS1Aa0iK.jpg"/>
+            <Post displayName="Rokas Rudzianskas" username="byrookas" verified text="lorem10lorem10lorem10lorem10lorem10lorem10lorem10lorem10lorem10" avatar="https://pbs.twimg.com/profile_images/1350895249678348292/RS1Aa0iK.jpg" image="https://pbs.twimg.com/profile_images/1350895249678348292/RS1Aa0iK.jpg"/>
+            <Post displayName="Rokas Rudzianskas" username="byrookas" verified text="lorem10lorem10lorem10lorem10lorem10lorem10lorem10lorem10lorem10" avatar="https://pbs.twimg.com/profile_images/1350895249678348292/RS1Aa0iK.jpg" image="https://pbs.twimg.com/profile_images/1350895249678348292/RS1Aa0iK.jpg"/>
+            <Post displayName="Rokas Rudzianskas" username="byrookas" verified text="lorem10lorem10lorem10lorem10lorem10lorem10lorem10lorem10lorem10" avatar="https://pbs.twimg.com/profile_images/1350895249678348292/RS1Aa0iK.jpg" image="https://pbs.twimg.com/profile_images/1350895249678348292/RS1Aa0iK.jpg"/>
+            <Post displayName="Rokas Rudzianskas" username="byrookas" verified text="lorem10lorem10lorem10lorem10lorem10lorem10lorem10lorem10lorem10" avatar="https://pbs.twimg.com/profile_images/1350895249678348292/RS1Aa0iK.jpg" image="https://pbs.twimg.com/profile_images/1350895249678348292/RS1Aa0iK.jpg"/>
+
         </div>
     );
 };

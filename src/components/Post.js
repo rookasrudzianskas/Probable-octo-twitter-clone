@@ -11,24 +11,24 @@ const Post = ({ displayName, username, verified, text, image, avatar }, ref) => 
     return (
         <div className="post">
             <div className="post__avatar">
-                <Avatar src="https://pbs.twimg.com/profile_images/1350895249678348292/RS1Aa0iK.jpg" />
+                <Avatar src={avatar} />
 
             </div>
 
             <div className="post__body">
                 <div className="post__header">
                     <div className="post__headerText">
-                        <h3>Rookas Rudzianskas {" "}
+                        <h3>{displayName} {" "}
                             <span className="post__headerSpecial">
-                                <VerifiedUserIcon className="post__badge" /> @roookas
+                                {verified  && <VerifiedUserIcon className="post__badge" />} @{username}
                             </span>
                         </h3>
                     </div>
                     <div className="post__headerDescription">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, pariatur?</p>
+                        <p>{text}</p>
                     </div>
                 </div>
-                    <img src="https://pbs.twimg.com/profile_images/1350895249678348292/RS1Aa0iK.jpg" alt=""/>
+                    <img src={image} alt=""/>
                     <div className="post__footer">
                         <ChatBubbleOutlineIcon fontSize="small" />
                         <RepeatIcon fontSize="small" />

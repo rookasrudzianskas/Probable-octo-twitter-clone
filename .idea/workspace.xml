@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4515ae7c-648f-4f8a-9bc9-2b48341c332d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/TweetBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TweetBox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/styles/TweetBox.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles/TweetBox.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +53,7 @@
       <option name="presentableId" value="Default" />
       <updated>1620222083699</updated>
       <workItem from="1620222089466" duration="8000" />
-      <workItem from="1620222105551" duration="6555000" />
+      <workItem from="1620222105551" duration="6987000" />
     </task>
     <servers />
   </component>

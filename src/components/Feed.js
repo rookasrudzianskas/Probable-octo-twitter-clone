@@ -29,7 +29,16 @@ const Feed = () => {
         {/*    tweet box*/}
             <TweetBox />
 
-            <Post displayName="Rokas Rudzianskas" username="byrookas" verified text="lorem10lorem10lorem10lorem10lorem10lorem10lorem10lorem10lorem10" avatar="https://pbs.twimg.com/profile_images/1350895249678348292/RS1Aa0iK.jpg" image="https://pbs.twimg.com/profile_images/1350895249678348292/RS1Aa0iK.jpg"/>
+            {posts.map(post => (
+                <Post
+                    displayName={post.displayName}
+                    username={post.username}
+                    verified={post.verified}
+                    text={post.text}
+                    avatar={post.avatar}
+                    image={post.image}
+                />
+                ))}
 
         </div>
     );
